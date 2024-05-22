@@ -1,0 +1,11 @@
+{
+  "name": "adder-ts",
+  "version": "1.0.0",
+  "description": "This is a test project to create a npm package.",
+  "main": "index.js",
+  "author": "Reza Khorrami Salarabadi",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
