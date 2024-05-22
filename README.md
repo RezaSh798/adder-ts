@@ -1,2 +1,2 @@
 # adder-ts
-This is a test project to create a npm package.
+This is a test project to create a npm package with typescript.

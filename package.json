@@ -2,10 +2,15 @@
   "name": "adder-ts",
   "version": "1.0.0",
   "description": "This is a test project to create a npm package.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "author": "Reza Khorrami Salarabadi",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
+    "@types/node": "^20.12.12",
     "typescript": "^5.4.5"
   }
 }
