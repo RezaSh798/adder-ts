@@ -15,7 +15,7 @@
     "typescript": "^5.4.5"
   },
   "publishConfig": {
-    "registery": "https://npm.pkg.github.com/@RezaSh798"
+    "registery": "https://npm.pkg.github.com/@rezash798"
   },
   "files": [
     "dist"
