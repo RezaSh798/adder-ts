@@ -1,16 +1,24 @@
 {
-  "name": "adder-ts",
+  "name": "@RezaSh798/adder-ts",
   "version": "1.0.0",
   "description": "This is a test project to create a npm package.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": "Reza Khorrami Salarabadi",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
+    "rimraf": "^5.0.7",
     "typescript": "^5.4.5"
-  }
+  },
+  "publishConfig": {
+    "registery": "https://npm.pkg.github.com/@RezaSh798"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Reza Khorrami Salarabadi"
 }
