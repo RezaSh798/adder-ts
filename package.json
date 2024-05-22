@@ -1,5 +1,5 @@
 {
-  "name": "@RezaSh798/adder-ts",
+  "name": "@rezash798/adder-ts",
   "version": "1.0.0",
   "description": "This is a test project to create a npm package with typescript.",
   "main": "dist/index.js",
@@ -15,7 +15,8 @@
     "typescript": "^5.4.5"
   },
   "publishConfig": {
-    "registery": "https://npm.pkg.github.com/@rezash798"
+    "registery": "https://npm.pkg.github.com/@RezaSh798",
+    "access": "public"
   },
   "files": [
     "dist"
