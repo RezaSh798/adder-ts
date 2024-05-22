@@ -1,7 +1,7 @@
 {
   "name": "@RezaSh798/adder-ts",
   "version": "1.0.0",
-  "description": "This is a test project to create a npm package.",
+  "description": "This is a test project to create a npm package with typescript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
